@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap');
+
+*{
+  margin: 0;padding: 0;font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+
+.main-sec{
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    
+    
+}
+
+.accordions{
+    width: 60%;
+    margin: auto;
+}
+
+
+
+/* single card */
+.ac-card{
+    width: 50%;
+    
+    text-align: left;
+    margin: 20px auto;
+    border-radius:5px;
+    background-color: rgba(175, 173, 175,0.5) ;
+}
+
+
+.control{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: darkgray;
+    min-width: 50%;
+
+}
+
+
+
+.directions{
+    width: 30%;
+    height: 12vh;
+    position: relative;
+    padding: 0%;
+
+}
+
+
+.high{
+    background-color: rgba(164, 164, 190, 0.7);
+}
+
+.fa{
+    font-size: larger;
+    padding: 5px;
+
+}
+.fa:hover{
+    color: white;
+}
+
+
+ .fa-angle-right{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(-50%,-50%);
+    
+} 
+
+ .fa-angle-left{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(50%,-50%);
+}
+.fa-angle-up{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,0%);
+
+}
+.fa-angle-down{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%,0%);
+
+}
+
+h3{
+    margin-left: 50px;
+    width: 50%;
+}
+
+
+
+
+
+.top{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.right{
+    display: flex;
+    width: 100%;
+}
+.left{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
